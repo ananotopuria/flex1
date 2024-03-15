@@ -21,7 +21,7 @@ main {
   align-items: center;
 }
 
-.container {
+.main__container {
   width: 30rem;
   height: 50rem;
   padding: 2rem;
@@ -33,10 +33,10 @@ main {
   box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
 }
 
-.card-img {
+.main__card-img {
   border-radius: 2rem;
 }
-.tag {
+.main__tag {
   background-color: #f4d04e;
   font-size: 1.2rem;
   margin-top: 2.4rem;
@@ -45,34 +45,34 @@ main {
   text-align: center;
   padding: .5rem .5rem;
 }
-.publish-date {
+.main__publish-date {
   margin-top: 2rem;
   color: #808080;
   font-size: 1.4rem;
 }
-.title {
+.main__title {
   margin-top: 2rem;
 }
-.title:hover{
+.main__title:hover{
     color: #f4d04e;
     cursor: pointer;
 }
-.txt {
+.main__txt {
   margin-top: 2rem;
   color: #808080;
   font-size: 1.4rem;
 }
 
-.author {
+.main__author {
   display: flex;
   align-items: center;
   gap: 2rem;
   margin-top: 4rem;
   
 }
-.author-img {
+.main__author-img{
   width: 6rem;
 }
-.author-name {
+.main__author-name {
   font-weight: bold;
 }
